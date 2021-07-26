@@ -1,0 +1,209 @@
+.aa{
+     font-size: 30px;
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #bc13fe,
+                0 0 0.8rem #bc13fe,
+                0 0 2.8rem #bc13fe,
+                inset 0 0 1.3rem #bc13fe;
+}
+.ab{
+    border: 0.2rem solid #fff;
+    border-radius: 2rem;
+    padding: 0.4em;
+    box-shadow: 0 0 .2rem #fff,
+                0 0 .2rem #fff,
+                0 0 2rem #bc13fe,
+                0 0 0.8rem #bc13fe,
+                0 0 2.8rem #bc13fe,
+                inset 0 0 1.3rem #bc13fe;
+}
+@media screen and (max-width: 800px) 
+{
+.aa
+{
+  font-size: 20px;
+} 
+}
+@media screen and (max-width: 800px) {
+.ab
+{
+    font-size: 17px;
+}
+}
+
+@keyframes pulsate {
+    100% {
+      text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #0fa,
+        0 0 80px #0fa,
+        0 0 90px #0fa,
+        0 0 100px #0fa,
+        0 0 150px #0fa;
+    }
+    0% {
+      text-shadow:
+        0 0 2px #fff,
+        0 0 4px #fff,
+        0 0 6px #fff,
+        0 0 10px #0fa,
+        0 0 45px #0fa,
+        0 0 55px #0fa,
+        0 0 70px #0fa,
+        0 0 80px #0fa;
+    }
+  }
+  .aa:hover,.ab:hover
+{
+    animation: pulsate 2.5s infinite alternate;   
+}
+.neonText {
+    color: #fff;
+    text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+  }
+  .alignleft{
+    float: left;
+  }
+  .alignright{
+    float: right;
+  }
+  .faicon
+{
+  height: 20px;
+  width: 30px;
+  padding: 3px;
+}
+.fa 
+{
+  color:gold;
+  padding: 3px;
+}
+a
+{
+  color:rgb(9, 247, 255);
+  font-size: 25px;
+}
+a:hover{
+  text-decoration: none;
+  color:rgb(9, 247, 255);
+  }
+  .ac
+  {
+  background-color: goldenrod;
+  }
+  @media screen and (max-width: 800px)
+  {
+    .happ   {
+      font-size: 25px;
+      font-weight: bolder;
+    }
+    .ad
+    {
+      font-size: 12px;
+    }
+    .button{
+      font-size: 20px;
+    }
+  }
+  .mainpart
+  {
+    color:rgb(9, 247, 255);
+  }
+  
+  .button:hover
+{
+  background:rgb(165, 165, 165);
+}
+.mainlogo
+{
+  padding-top: 1px;
+  padding-left: 45px;
+  width: 200px;
+  height: 70px;
+}
+@media screen and (max-width: 800px)
+{
+  .mainlogo{
+    width: 100px;
+    height: 50px;
+    padding-left: 30px;
+    padding-top: 1px;
+  }
+}
+.poster{
+  float: left;
+  width: 300px;
+  height: 500px;
+}
+.trailer
+{
+  width: 700px;
+  height: 500px;
+ } 
+ @media screen and (max-width: 800px)
+ {
+   .poster{
+    padding-right:40px ;
+    width: 250px;
+    height: 350px;
+   }
+   .trailer{
+    width: 250px;
+    height: 100px;
+    padding-right: 80px;
+   }
+ }
+ .flex
+ {
+   display: flex;
+   flex-direction: row;
+   flex-wrap:wrap;
+ }
+ .ae{
+  margin: auto;
+  width: 100px;
+ }
+ .af{
+   width: 130px; ;
+   height: 150px;
+ }
+  @media screen and (max-width: 800px)
+ {
+   .af{
+    width:100px;
+    height: 100px;
+   }
+   .ag
+   {
+     font-size: 15px;
+   }.ah{
+     font-size: 10px;
+   }
+ } 
+ .ai,.aj{
+  font-weight: bold;
+ }
+ @media screen and (max-width: 800px)
+ {.ai{
+   font-size: 25px;
+ }
+ .aj{
+   font-size: 20px;
+ }
+ .ak{
+   font-size:15px ; }
+   .al{
+     font-size: 20px;
+   }
+ }
+
+ 
